@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+  }
+  
+  .App #dropdown{
+    border-radius: 0 !important;
+    background-color: red;
+  }
+  ul.dropdown-menu{
+      text-align: center;
+      min-width:100%;
+      margin-bottom: 40px;
+  }
+  
+  *{
+      border-radius: 0 !important;
+  }
+
+button{
+    margin:5px;
+}
+
+#root{
+    position: absolute;
+}
+
+.form{
+    position: absolute;
+    z-index: 10;
+    margin: 15px 0px 0px 15px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.weatherInfo{
+    background: white;
+}
+
+.weatherInfo p{
+    margin:0px 5px 0px 5px;
+}
